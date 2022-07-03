@@ -1,0 +1,6 @@
+-R . ClockStructs
+-arg -w
+-arg all
+Preliminaries.v
+Concepts.v
+
