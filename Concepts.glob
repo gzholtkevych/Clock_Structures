@@ -1,0 +1,114 @@
+DIGEST a9a56d8f97b104ed95444304808d1ead
+FClockStructs.Concepts
+R15:18 Coq.Unicode.Utf8 <> <> lib
+R36:61 ClockStructs.Preliminaries <> <> lib
+constr 104:117 <> define_Instant
+rec 73:79 <> Instant
+proj 121:126 <> source
+proj 138:143 <> number
+R130:134 ClockStructs.Concepts <> clock var
+R147:152 ClockStructs.Preliminaries <> posnat def
+rec 165:175 <> ClockStruct
+proj 237:252 <> clock_Fin_constr
+proj 271:286 <> clock_dec_constr
+proj 338:361 <> prec_strict_order_constr
+proj 384:400 <> sync_equiv_constr
+proj 423:449 <> sync_prec_congruence_constr
+proj 537:560 <> prec_on_clockline_constr
+proj 648:660 <> fin_causality
+R205:212 ClockStructs.Preliminaries <> relation def
+R216:222 ClockStructs.Concepts <> Instant rec
+R224:228 ClockStructs.Concepts <> clock var
+R256:261 ClockStructs.Preliminaries <> Finite class
+R263:267 ClockStructs.Concepts <> clock var
+R290:293 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R308:309 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R303:307 ClockStructs.Concepts <> clock var
+R303:307 ClockStructs.Concepts <> clock var
+R310:310 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R319:323 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R334:334 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R313:315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R311:312 ClockStructs.Concepts <> c' var
+R316:318 ClockStructs.Concepts <> c'' var
+R326:330 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R324:325 ClockStructs.Concepts <> c' var
+R331:333 ClockStructs.Concepts <> c'' var
+R365:375 ClockStructs.Preliminaries <> StrictOrder class
+R377:380 ClockStructs.Concepts <> prec var
+R404:414 ClockStructs.Preliminaries <> Equivalence class
+R416:419 ClockStructs.Concepts <> sync var
+R453:456 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R476:481 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R469:475 ClockStructs.Concepts <> Instant rec
+R469:475 ClockStructs.Concepts <> Instant rec
+R469:475 ClockStructs.Concepts <> Instant rec
+R469:475 ClockStructs.Concepts <> Instant rec
+R491:495 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R505:509 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R518:522 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R523:526 ClockStructs.Concepts <> prec var
+R531:532 ClockStructs.Concepts <> j' var
+R528:529 ClockStructs.Concepts <> i' var
+R510:513 ClockStructs.Concepts <> prec var
+R517:517 ClockStructs.Concepts <> j var
+R515:515 ClockStructs.Concepts <> i var
+R496:499 ClockStructs.Concepts <> sync var
+R503:504 ClockStructs.Concepts <> j' var
+R501:501 ClockStructs.Concepts <> j var
+R482:485 ClockStructs.Concepts <> sync var
+R489:490 ClockStructs.Concepts <> i' var
+R487:487 ClockStructs.Concepts <> i var
+R564:567 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R581:586 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R574:580 ClockStructs.Concepts <> Instant rec
+R574:580 ClockStructs.Concepts <> Instant rec
+R606:611 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R644:644 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R620:624 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R612:615 ClockStructs.Concepts <> prec var
+R619:619 ClockStructs.Concepts <> j var
+R617:617 ClockStructs.Concepts <> i var
+R633:635 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R625:630 ClockStructs.Concepts <> number proj
+R632:632 ClockStructs.Concepts <> i var
+R636:641 ClockStructs.Concepts <> number proj
+R643:643 ClockStructs.Concepts <> j var
+R595:597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R587:592 ClockStructs.Concepts <> source proj
+R594:594 ClockStructs.Concepts <> i var
+R598:603 ClockStructs.Concepts <> source proj
+R605:605 ClockStructs.Concepts <> j var
+R668:671 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R683:684 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R676:682 ClockStructs.Concepts <> Instant rec
+R685:688 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R696:697 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R693:695 Coq.Init.Datatypes <> nat ind
+R698:701 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R713:714 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R706:712 ClockStructs.Concepts <> Instant rec
+R723:727 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R736:738 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R728:733 ClockStructs.Concepts <> number proj
+R735:735 ClockStructs.Concepts <> j var
+R739:739 ClockStructs.Concepts <> n var
+R715:718 ClockStructs.Concepts <> prec var
+R722:722 ClockStructs.Concepts <> i var
+R720:720 ClockStructs.Concepts <> j var
+constr 771:789 <> define_clock_struct
+rec 755:766 <> clock_struct
+proj 793:797 <> clock
+proj 835:838 <> prec
+proj 862:865 <> sync
+proj 889:904 <> cert_ClockStruct
+R819:825 ClockStructs.Concepts <> Instant rec
+R827:831 ClockStructs.Concepts <> clock meth
+R843:850 ClockStructs.Preliminaries <> relation def
+R852:858 ClockStructs.Concepts <> instant meth
+R870:877 ClockStructs.Preliminaries <> relation def
+R879:885 ClockStructs.Concepts <> instant meth
+R908:918 ClockStructs.Concepts <> ClockStruct class
+R931:934 ClockStructs.Concepts <> sync meth
+R926:929 ClockStructs.Concepts <> prec meth
+R920:924 ClockStructs.Concepts <> clock meth

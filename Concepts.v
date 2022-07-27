@@ -1,22 +1,27 @@
-Require Import Lists.List.
-Import ListNotations.
+Require Import Utf8.
+Require Import ClockStructs.Preliminaries.
 
 
-Class Clockable (C : Set) : Set :=
-{ clock_fin : exists e : list C, forall c : C, In c e
-; clock_dec : forall c' c'' : C, {c' = c''} + {c' <> c''} }.
+Record Instant {clock : Set} : Set := define_Instant
+{ source : clock
+; number : posnat }. 
 
-Instance unit_clockable : Clockable unit.
-Proof.
-  constructor.
-  - exists [tt]. intro. destruct c. simpl. now left.
-  - intros. destruct c', c''. now left.
-Defined.
+Class ClockStruct (clock : Set) (prec sync : @relation (@Instant clock)) :=
+{ clock_Fin_constr : Finite clock
+; clock_dec_constr : ∀ c' c'' : clock, {c' = c''} + {c' ≠ c''}
+; prec_strict_order_constr : StrictOrder prec
+; sync_equiv_constr : Equivalence sync
+; sync_prec_congruence_constr : ∀ i i' j j' : Instant,
+    sync i i' → sync j j' → prec i j → prec i' j' 
+; prec_on_clockline_constr : ∀ i j : Instant,
+    source i = source j → (prec i j ↔ number i < number j)
+; fin_causality :
+    ∀ i : Instant, ∃ n : nat, ∀ j : Instant, prec j i → number j < n }.
 
+Structure clock_struct := define_clock_struct
+{ clock : Set
+; instant := @Instant clock
+; prec : @relation instant
+; sync : @relation instant
+; cert_ClockStruct : ClockStruct clock prec sync }.
 
-Structure Instant {C : Set} `{Clockable C} : Set :=
-  declare_Instant { src : C; num : nat }.
-
-Definition timer_instant := @Instant unit unit_clockable.
-
-Example e : timer_instant := {| src := tt; num := 3 |}.
