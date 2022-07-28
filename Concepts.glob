@@ -1,4 +1,4 @@
-DIGEST a9a56d8f97b104ed95444304808d1ead
+DIGEST 5e4b73679980cd7e2e448d602cf0351b
 FClockStructs.Concepts
 R15:18 Coq.Unicode.Utf8 <> <> lib
 R36:61 ClockStructs.Preliminaries <> <> lib
@@ -112,3 +112,83 @@ R908:918 ClockStructs.Concepts <> ClockStruct class
 R931:934 ClockStructs.Concepts <> sync meth
 R926:929 ClockStructs.Concepts <> prec meth
 R920:924 ClockStructs.Concepts <> clock meth
+rec 947:959 <> ClockMorphism
+proj 1047:1055 <> clock_inv
+proj 1144:1151 <> prec_inv
+proj 1222:1229 <> sync_inv
+R972:983 ClockStructs.Concepts <> clock_struct rec
+R1024:1028 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1029:1035 ClockStructs.Concepts <> instant proj
+R1037:1039 ClockStructs.Concepts <> cod var
+R1013:1019 ClockStructs.Concepts <> instant proj
+R1021:1023 ClockStructs.Concepts <> dom var
+R1059:1062 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1080:1085 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1069:1075 ClockStructs.Concepts <> instant proj
+R1077:1079 ClockStructs.Concepts <> dom var
+R1069:1075 ClockStructs.Concepts <> instant proj
+R1077:1079 ClockStructs.Concepts <> dom var
+R1105:1109 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1124:1126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1110:1115 ClockStructs.Concepts <> source proj
+R1118:1120 ClockStructs.Concepts <> map var
+R1122:1122 ClockStructs.Concepts <> i var
+R1127:1132 ClockStructs.Concepts <> source proj
+R1135:1137 ClockStructs.Concepts <> map var
+R1139:1139 ClockStructs.Concepts <> j var
+R1094:1096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1086:1091 ClockStructs.Concepts <> source proj
+R1093:1093 ClockStructs.Concepts <> i var
+R1097:1102 ClockStructs.Concepts <> source proj
+R1104:1104 ClockStructs.Concepts <> j var
+R1155:1158 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1176:1177 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1165:1171 ClockStructs.Concepts <> instant proj
+R1173:1175 ClockStructs.Concepts <> dom var
+R1165:1171 ClockStructs.Concepts <> instant proj
+R1173:1175 ClockStructs.Concepts <> dom var
+R1190:1194 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1195:1198 ClockStructs.Concepts <> prec proj
+R1213:1215 ClockStructs.Concepts <> map var
+R1217:1217 ClockStructs.Concepts <> j var
+R1205:1207 ClockStructs.Concepts <> map var
+R1209:1209 ClockStructs.Concepts <> i var
+R1200:1202 ClockStructs.Concepts <> cod var
+R1178:1181 ClockStructs.Concepts <> prec proj
+R1189:1189 ClockStructs.Concepts <> j var
+R1187:1187 ClockStructs.Concepts <> i var
+R1183:1185 ClockStructs.Concepts <> dom var
+R1233:1236 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1254:1255 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1243:1249 ClockStructs.Concepts <> instant proj
+R1251:1253 ClockStructs.Concepts <> dom var
+R1243:1249 ClockStructs.Concepts <> instant proj
+R1251:1253 ClockStructs.Concepts <> dom var
+R1268:1272 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1273:1276 ClockStructs.Concepts <> sync proj
+R1291:1293 ClockStructs.Concepts <> map var
+R1295:1295 ClockStructs.Concepts <> j var
+R1283:1285 ClockStructs.Concepts <> map var
+R1287:1287 ClockStructs.Concepts <> i var
+R1278:1280 ClockStructs.Concepts <> cod var
+R1256:1259 ClockStructs.Concepts <> sync proj
+R1267:1267 ClockStructs.Concepts <> j var
+R1265:1265 ClockStructs.Concepts <> i var
+R1261:1263 ClockStructs.Concepts <> dom var
+constr 1330:1350 <> define_clock_morphism
+rec 1312:1325 <> clock_morphism
+proj 1354:1356 <> dom
+proj 1375:1377 <> cod
+proj 1396:1398 <> map
+proj 1432:1449 <> cert_ClockMorphism
+R1360:1371 ClockStructs.Concepts <> clock_struct rec
+R1381:1392 ClockStructs.Concepts <> clock_struct rec
+R1413:1417 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1418:1424 ClockStructs.Concepts <> instant proj
+R1426:1428 ClockStructs.Concepts <> cod meth
+R1402:1408 ClockStructs.Concepts <> instant proj
+R1410:1412 ClockStructs.Concepts <> dom meth
+R1453:1465 ClockStructs.Concepts <> ClockMorphism class
+R1475:1477 ClockStructs.Concepts <> map meth
+R1471:1473 ClockStructs.Concepts <> cod meth
+R1467:1469 ClockStructs.Concepts <> dom meth

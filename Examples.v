@@ -6,11 +6,10 @@ Require Import Coq.Arith.PeanoNat.
 
 (* Timer system *)
 Definition timerInstant := @Instant unit.
-
 Definition timer_prec := fun i j : timerInstant => number i < number j.
 Definition timer_sync := fun i j : timerInstant => number i = number j.
 
-Instance cert_timer : ClockStruct unit timer_prec timer_sync.
+Definition timer : ClockStruct unit timer_prec timer_sync.
 Proof.
   constructor.
   - exact unit_fin_cert.
@@ -48,6 +47,3 @@ Proof.
     destruct i as [si ni], j as [sj nj]. compute. compute in H.
     now apply le_S in H.
 Defined.
-
-Definition timer : ClockStruct unit timer_prec timer_sync.
-Proof. exact cert_timer. Defined.

@@ -25,3 +25,18 @@ Structure clock_struct := define_clock_struct
 ; sync : @relation instant
 ; cert_ClockStruct : ClockStruct clock prec sync }.
 
+
+Class ClockMorphism (dom cod : clock_struct)
+                    (map : instant dom → instant cod) :=
+{ clock_inv : ∀ i j : instant dom,
+    source i = source j → source (map i) = source (map j)
+; prec_inv : ∀ i j : instant dom, prec dom i j → prec cod (map i) (map j)
+; sync_inv : ∀ i j : instant dom, sync dom i j → sync cod (map i) (map j)
+}.
+
+Structure clock_morphism := define_clock_morphism
+{ dom : clock_struct
+; cod : clock_struct
+; map : instant dom → instant cod
+; cert_ClockMorphism : ClockMorphism dom cod map
+}.
