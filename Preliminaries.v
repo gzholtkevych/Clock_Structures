@@ -3,40 +3,43 @@ Require Import Lists.List.
 Import ListNotations.
 
 
-(* -- Finitary types ---------------------------------------------- *)
-Class Finite T : Prop :=
-  fin_cert : ∃ enum : list T, ∀ x : T, In x enum.
-
-
-(* -- Kinds of binary relations ----------------------------------- *)
-Section BinaryRelations.
+Section Relations_and_Ensembles.
 Variable T : Type.
 
-  Definition relation : Type := T → T → Prop.
+Definition relation : Type := T → T → Prop.
+Definition ensemble : Type := T → Prop.
+Definition image : relation → T → ensemble := fun R x => fun y => R x y.
+Definition inverse_image : relation → T → ensemble := fun R x => fun y => R y x.
 
-  Section BinaryRelationKinds.
-  Variable R : relation.
+Section RelationKinds.
+Variable R : relation.
 
-    Class Reflexive : Prop := refl_cert : ∀ x : T, R x x.
+Class Reflexive : Prop := reflCert : ∀ x : T, R x x.
 
-    Class Symmetric : Prop := symm_cert : ∀ x y : T, R x y → R y x.
+Class Symmetric : Prop := symmCert : ∀ x y : T, R x y → R y x.
 
-    Class Asymmetric : Prop := asym_cert : ∀ x y : T, R x y → ¬ R y x.
+Class Asymmetric : Prop := asymCert : ∀ x y : T, R x y → ¬ R y x.
 
-    Class Transitive : Prop := trns_cert : ∀ x y z : T, R x y → R y z → R x z.
+Class Transitive : Prop := transCert : ∀ x y z : T, R x y → R y z → R x z.
 
-    Class StrictOrder : Prop :=
-    { so_asym_constr : Asymmetric
-    ; so_trns_constr : Transitive }.
+Class StrictOrder : Prop :=
+{ so_asymConstr : Asymmetric
+; so_transConstr : Transitive
+}.
 
-    Class Equivalence : Prop :=
-    { eq_refl_constr : Reflexive
-    ; eq_symm_constr : Symmetric
-    ; eq_trns_constr : Transitive }.
-  End BinaryRelationKinds.
-End BinaryRelations.
+Class Equivalence : Prop :=
+{ eq_reflConstr : Reflexive
+; eq_symmConstr : Symmetric 
+; eq_transConstr : Transitive
+}.
+End RelationKinds.
+
+End Relations_and_Ensembles.
 
 Arguments relation {T}.
+Arguments ensemble {T}.
+Arguments image {T}.
+Arguments inverse_image {T}.
 Arguments Reflexive {T}.
 Arguments Symmetric {T}.
 Arguments Asymmetric {T}.
@@ -45,7 +48,15 @@ Arguments StrictOrder {T}.
 Arguments Equivalence {T}.
 
 
-(* Positive Naturals*)
+(* -- Finitness ------------------------------------------------------------- *)
+(*    for types ------------------------------------------------------------- *)
+Class TFinite T : Prop := tfinCert : ∃ enum : list T, ∀ x : T, In x enum.
+(*    for ensembles --------------------------------------------------------- *)
+Class EFinite {T} (E : T → Prop) : Prop :=
+  efinCert : ∃ enum : list T, ∀ x : T, E x → In x enum.
+
+
+(* -- Positive Naturals ----------------------------------------------------- *)
 Definition posnat : Set := {n : nat | n ≠ 0}.
 
 Definition posnat_to_nat (x : posnat) : nat. 
@@ -53,7 +64,9 @@ Proof. destruct x. assumption. Defined.
 
 Coercion posnat_to_nat : posnat >-> nat.
 
-
-(* -- Some useful facts ------------------------------------------- *)
-Instance unit_fin_cert : Finite unit.
-Proof. exists [tt]. intro. destruct x. now left. Defined.
+Definition nat_to_posnat (n : nat) : posnat.
+Proof.
+  assert (H : S n ≠ 0). discriminate.
+  pose (p := exist (fun n : nat => n ≠ 0) (S n) H).
+  exact p.
+Defined.
