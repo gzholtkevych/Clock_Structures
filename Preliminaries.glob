@@ -1,138 +1,175 @@
-DIGEST d39aa00a2187f37012435bdeb130c9bd
+DIGEST d5f12b629f18a73884f6978cd14fa4f7
 FClockStructs.Preliminaries
 R15:18 Coq.Unicode.Utf8 <> <> lib
 R36:45 Coq.Lists.List <> <> lib
-ind 149:154 <> Finite
-constr 170:177 <> fin_cert
-rec 149:154 <> Finite
-proj 170:177 <> fin_cert
-R181:184 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
-R198:199 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
-R192:195 Coq.Init.Datatypes <> list ind
-R197:197 ClockStructs.Preliminaries <> T var
-R200:203 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R209:210 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R208:208 ClockStructs.Preliminaries <> T var
-R211:212 Coq.Lists.List <> In def
-R216:219 ClockStructs.Preliminaries <> enum var
-R214:214 ClockStructs.Preliminaries <> x var
-sec 303:317 <> BinaryRelations
-var 329:329 BinaryRelations T
-def 353:360 <> relation
-R373:377 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R379:383 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R378:378 ClockStructs.Preliminaries <> BinaryRelations.T var
-R372:372 ClockStructs.Preliminaries <> BinaryRelations.T var
-sec 401:419 BinaryRelations BinaryRelationKinds
-var 433:433 BinaryRelations.BinaryRelationKinds R
-R437:444 ClockStructs.Preliminaries <> relation def
-ind 458:466 <> Reflexive
-constr 478:486 <> refl_cert
-rec 458:466 <> Reflexive
-proj 478:486 <> refl_cert
-R490:493 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R499:500 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R498:498 ClockStructs.Preliminaries <> BinaryRelations.T var
-R501:501 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R505:505 ClockStructs.Preliminaries <> x var
-R503:503 ClockStructs.Preliminaries <> x var
-ind 519:527 <> Symmetric
-constr 539:547 <> symm_cert
-rec 519:527 <> Symmetric
-proj 539:547 <> symm_cert
-R551:554 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R562:563 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R561:561 ClockStructs.Preliminaries <> BinaryRelations.T var
-R561:561 ClockStructs.Preliminaries <> BinaryRelations.T var
-R569:573 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R574:574 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R578:578 ClockStructs.Preliminaries <> x var
-R576:576 ClockStructs.Preliminaries <> y var
-R564:564 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R568:568 ClockStructs.Preliminaries <> y var
-R566:566 ClockStructs.Preliminaries <> x var
-ind 592:601 <> Asymmetric
-constr 613:621 <> asym_cert
-rec 592:601 <> Asymmetric
-proj 613:621 <> asym_cert
-R625:628 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R636:637 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R635:635 ClockStructs.Preliminaries <> BinaryRelations.T var
-R635:635 ClockStructs.Preliminaries <> BinaryRelations.T var
-R643:647 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R648:650 Coq.Unicode.Utf8_core <> ::type_scope:'¬'_x not
-R651:651 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R655:655 ClockStructs.Preliminaries <> x var
-R653:653 ClockStructs.Preliminaries <> y var
-R638:638 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R642:642 ClockStructs.Preliminaries <> y var
-R640:640 ClockStructs.Preliminaries <> x var
-ind 669:678 <> Transitive
-constr 690:698 <> trns_cert
-rec 669:678 <> Transitive
-proj 690:698 <> trns_cert
-R702:705 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R715:716 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R714:714 ClockStructs.Preliminaries <> BinaryRelations.T var
-R714:714 ClockStructs.Preliminaries <> BinaryRelations.T var
-R714:714 ClockStructs.Preliminaries <> BinaryRelations.T var
-R722:726 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R732:736 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R737:737 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R741:741 ClockStructs.Preliminaries <> z var
-R739:739 ClockStructs.Preliminaries <> x var
-R727:727 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R731:731 ClockStructs.Preliminaries <> z var
-R729:729 ClockStructs.Preliminaries <> y var
-R717:717 ClockStructs.Preliminaries <> BinaryRelations.BinaryRelationKinds.R var
-R721:721 ClockStructs.Preliminaries <> y var
-R719:719 ClockStructs.Preliminaries <> x var
-rec 755:765 <> StrictOrder
-proj 783:796 <> so_asym_constr
-proj 817:830 <> so_trns_constr
-R800:809 ClockStructs.Preliminaries <> Asymmetric class
-R834:843 ClockStructs.Preliminaries <> Transitive class
-rec 859:869 <> Equivalence
-proj 887:900 <> eq_refl_constr
-proj 920:933 <> eq_symm_constr
-proj 953:966 <> eq_trns_constr
-R904:912 ClockStructs.Preliminaries <> Reflexive class
-R937:945 ClockStructs.Preliminaries <> Symmetric class
-R970:979 ClockStructs.Preliminaries <> Transitive class
-R990:1008 ClockStructs.Preliminaries BinaryRelations.BinaryRelationKinds <> sec
-R1015:1029 ClockStructs.Preliminaries BinaryRelations <> sec
-R1043:1050 ClockStructs.Preliminaries <> relation def
-R1043:1050 ClockStructs.Preliminaries <> relation def
-R1067:1075 ClockStructs.Preliminaries <> Reflexive class
-R1067:1075 ClockStructs.Preliminaries <> Reflexive class
-R1092:1100 ClockStructs.Preliminaries <> Symmetric class
-R1092:1100 ClockStructs.Preliminaries <> Symmetric class
-R1117:1126 ClockStructs.Preliminaries <> Asymmetric class
-R1117:1126 ClockStructs.Preliminaries <> Asymmetric class
-R1143:1152 ClockStructs.Preliminaries <> Transitive class
-R1143:1152 ClockStructs.Preliminaries <> Transitive class
-R1169:1179 ClockStructs.Preliminaries <> StrictOrder class
-R1169:1179 ClockStructs.Preliminaries <> StrictOrder class
-R1196:1206 ClockStructs.Preliminaries <> Equivalence class
-R1196:1206 ClockStructs.Preliminaries <> Equivalence class
-def 1249:1254 <> posnat
-R1265:1265 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R1267:1269 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R1273:1275 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R1283:1283 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R1270:1272 Coq.Init.Datatypes <> nat ind
-R1277:1281 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
-R1276:1276 ClockStructs.Preliminaries <> n var
-def 1298:1310 <> posnat_to_nat
-R1317:1322 ClockStructs.Preliminaries <> posnat def
-R1327:1329 Coq.Init.Datatypes <> nat ind
-R1374:1412 ClockStructs.Preliminaries <> posnat_to_nat def
-inst 1497:1509 <> unit_fin_cert
-R1513:1518 ClockStructs.Preliminaries <> Finite class
-R1520:1523 Coq.Init.Datatypes <> unit ind
-R1540:1540 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1543:1543 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1541:1542 Coq.Init.Datatypes <> tt constr
-R1540:1540 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1543:1543 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1541:1542 Coq.Init.Datatypes <> tt constr
+sec 80:102 <> Relations_and_Ensembles
+var 114:114 Relations_and_Ensembles T
+def 136:143 <> relation
+R156:160 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R162:166 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R161:161 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R155:155 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+def 184:191 <> ensemble
+R204:208 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R203:203 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+def 226:230 <> image
+R242:246 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R248:252 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R253:260 ClockStructs.Preliminaries <> ensemble def
+R247:247 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R234:241 ClockStructs.Preliminaries <> relation def
+R285:285 ClockStructs.Preliminaries <> R var
+R289:289 ClockStructs.Preliminaries <> y var
+R287:287 ClockStructs.Preliminaries <> x var
+def 303:315 <> inverse_image
+R327:331 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R333:337 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R338:345 ClockStructs.Preliminaries <> ensemble def
+R332:332 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R319:326 ClockStructs.Preliminaries <> relation def
+R370:370 ClockStructs.Preliminaries <> R var
+R374:374 ClockStructs.Preliminaries <> x var
+R372:372 ClockStructs.Preliminaries <> y var
+sec 386:398 Relations_and_Ensembles RelationKinds
+var 410:410 Relations_and_Ensembles.RelationKinds R
+R414:421 ClockStructs.Preliminaries <> relation def
+ind 431:439 <> Reflexive
+constr 451:458 <> reflCert
+rec 431:439 <> Reflexive
+proj 451:458 <> reflCert
+R462:465 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R471:472 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R470:470 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R473:473 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R477:477 ClockStructs.Preliminaries <> x var
+R475:475 ClockStructs.Preliminaries <> x var
+ind 487:495 <> Symmetric
+constr 507:514 <> symmCert
+rec 487:495 <> Symmetric
+proj 507:514 <> symmCert
+R518:521 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R529:530 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R528:528 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R528:528 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R536:540 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R541:541 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R545:545 ClockStructs.Preliminaries <> x var
+R543:543 ClockStructs.Preliminaries <> y var
+R531:531 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R535:535 ClockStructs.Preliminaries <> y var
+R533:533 ClockStructs.Preliminaries <> x var
+ind 555:564 <> Asymmetric
+constr 576:583 <> asymCert
+rec 555:564 <> Asymmetric
+proj 576:583 <> asymCert
+R587:590 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R598:599 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R597:597 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R597:597 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R605:609 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R610:612 Coq.Unicode.Utf8_core <> ::type_scope:'¬'_x not
+R613:613 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R617:617 ClockStructs.Preliminaries <> x var
+R615:615 ClockStructs.Preliminaries <> y var
+R600:600 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R604:604 ClockStructs.Preliminaries <> y var
+R602:602 ClockStructs.Preliminaries <> x var
+ind 627:636 <> Transitive
+constr 648:656 <> transCert
+rec 627:636 <> Transitive
+proj 648:656 <> transCert
+R660:663 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R673:674 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R672:672 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R672:672 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R672:672 ClockStructs.Preliminaries <> Relations_and_Ensembles.T var
+R680:684 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R690:694 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R695:695 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R699:699 ClockStructs.Preliminaries <> z var
+R697:697 ClockStructs.Preliminaries <> x var
+R685:685 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R689:689 ClockStructs.Preliminaries <> z var
+R687:687 ClockStructs.Preliminaries <> y var
+R675:675 ClockStructs.Preliminaries <> Relations_and_Ensembles.RelationKinds.R var
+R679:679 ClockStructs.Preliminaries <> y var
+R677:677 ClockStructs.Preliminaries <> x var
+rec 709:719 <> StrictOrder
+proj 733:745 <> so_asymConstr
+proj 762:775 <> so_transConstr
+R749:758 ClockStructs.Preliminaries <> Asymmetric class
+R779:788 ClockStructs.Preliminaries <> Transitive class
+rec 800:810 <> Equivalence
+proj 824:836 <> eq_reflConstr
+proj 852:864 <> eq_symmConstr
+proj 881:894 <> eq_transConstr
+R840:848 ClockStructs.Preliminaries <> Reflexive class
+R868:876 ClockStructs.Preliminaries <> Symmetric class
+R898:907 ClockStructs.Preliminaries <> Transitive class
+R916:928 ClockStructs.Preliminaries Relations_and_Ensembles.RelationKinds <> sec
+R936:958 ClockStructs.Preliminaries Relations_and_Ensembles <> sec
+R972:979 ClockStructs.Preliminaries <> relation def
+R972:979 ClockStructs.Preliminaries <> relation def
+R996:1003 ClockStructs.Preliminaries <> ensemble def
+R996:1003 ClockStructs.Preliminaries <> ensemble def
+R1020:1024 ClockStructs.Preliminaries <> image def
+R1020:1024 ClockStructs.Preliminaries <> image def
+R1041:1053 ClockStructs.Preliminaries <> inverse_image def
+R1041:1053 ClockStructs.Preliminaries <> inverse_image def
+R1070:1078 ClockStructs.Preliminaries <> Reflexive class
+R1070:1078 ClockStructs.Preliminaries <> Reflexive class
+R1095:1103 ClockStructs.Preliminaries <> Symmetric class
+R1095:1103 ClockStructs.Preliminaries <> Symmetric class
+R1120:1129 ClockStructs.Preliminaries <> Asymmetric class
+R1120:1129 ClockStructs.Preliminaries <> Asymmetric class
+R1146:1155 ClockStructs.Preliminaries <> Transitive class
+R1146:1155 ClockStructs.Preliminaries <> Transitive class
+R1172:1182 ClockStructs.Preliminaries <> StrictOrder class
+R1172:1182 ClockStructs.Preliminaries <> StrictOrder class
+R1199:1209 ClockStructs.Preliminaries <> Equivalence class
+R1199:1209 ClockStructs.Preliminaries <> Equivalence class
+ind 1386:1392 <> TFinite
+constr 1406:1413 <> tfinCert
+rec 1386:1392 <> TFinite
+proj 1406:1413 <> tfinCert
+R1417:1420 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R1434:1435 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R1428:1431 Coq.Init.Datatypes <> list ind
+R1433:1433 ClockStructs.Preliminaries <> T var
+R1436:1439 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1445:1446 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1444:1444 ClockStructs.Preliminaries <> T var
+R1447:1448 Coq.Lists.List <> In def
+R1452:1455 ClockStructs.Preliminaries <> enum var
+R1450:1450 ClockStructs.Preliminaries <> x var
+ind 1545:1551 <> EFinite
+constr 1586:1593 <> efinCert
+rec 1545:1551 <> EFinite
+proj 1586:1593 <> efinCert
+R1563:1567 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1562:1562 ClockStructs.Preliminaries <> T var
+R1597:1600 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R1614:1615 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R1608:1611 Coq.Init.Datatypes <> list ind
+R1613:1613 ClockStructs.Preliminaries <> T var
+R1616:1619 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1625:1626 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1624:1624 ClockStructs.Preliminaries <> T var
+R1630:1634 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1635:1636 Coq.Lists.List <> In def
+R1640:1643 ClockStructs.Preliminaries <> enum var
+R1638:1638 ClockStructs.Preliminaries <> x var
+R1627:1627 ClockStructs.Preliminaries <> E var
+R1629:1629 ClockStructs.Preliminaries <> x var
+def 1740:1745 <> posnat
+R1756:1756 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1758:1760 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1764:1766 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1774:1774 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1761:1763 Coq.Init.Datatypes <> nat ind
+R1768:1772 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R1767:1767 ClockStructs.Preliminaries <> n var
+def 1789:1801 <> posnat_to_nat
+R1808:1813 ClockStructs.Preliminaries <> posnat def
+R1818:1820 Coq.Init.Datatypes <> nat ind
+R1865:1903 ClockStructs.Preliminaries <> posnat_to_nat def
